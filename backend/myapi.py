@@ -37,9 +37,13 @@ async def read_root():
 
 @app.get("/jobs/search")
 async def search_jobs(company: str = None, title: str = None,
-                      pay_period: str = None, min_wage: int = None ) -> List[JobOutput]:
+                      pay_period: str = None, min_wage: int = None,
+                      location: str = None, limit: int = 10
+                      ) -> List[JobOutput]:
     try:
-        jobs = get_job_listings(company = company, title = title, pay_period = pay_period, min_wage = min_wage)
+        jobs = get_job_listings(company = company, title = title,
+                                pay_period = pay_period, min_wage = min_wage,
+                                location = location, limit = limit)
         return [JobOutput(
             job_id = job.job_id,
             company_name = job.company.company_name,
@@ -81,3 +85,4 @@ async def create_job(job: JobInput) -> List[JobOutput]:
         ) for job in jobs]
     except Exception as error:
         raise HTTPException(status_code = 500, detail = str(error))
+

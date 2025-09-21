@@ -19,41 +19,45 @@ Base = declarative_base()
 
 class Company(Base):
     __tablename__ = 'companies'
-    company_id = Column(Integer, primary_key=True)
+    company_id = Column(Integer, primary_key = True)
     company_name = Column(String)
-    job_listings = relationship("JobListing", back_populates="company")
+    job_listings = relationship("JobListing", back_populates = "company")
 
 class JobListing(Base):
     __tablename__ = 'job_listings'
-    job_id = Column(Integer, primary_key=True)
+    job_id = Column(Integer, primary_key = True)
     company_id = Column(Integer, ForeignKey('companies.company_id'))
     title = Column(String)
     max_salary = Column(String)
     pay_period = Column(String)
     job_location = Column(String)
-    company = relationship("Company", back_populates="job_listings")
+    company = relationship("Company", back_populates = "job_listings")
     
-Session = sessionmaker(bind=engine)
+Session = sessionmaker(bind = engine)
 Base.metadata.create_all(engine)
 
 def get_job_listings(company: Optional[str] = None, title: Optional[str] = None, 
-                     pay_period: Optional[str] = None, min_wage: Optional[int] = None ) -> List[JobListing]:
+                     pay_period: Optional[str] = None, min_wage: Optional[int] = None, 
+                     location: Optional[str] = None, limit:Optional[int] = 10
+                     ) -> List[JobListing]:
     session = Session()
     try: 
         # joinedload used to for eager loading (lazy loading does not work due to 
         # Company and JobListing ending at separate times)
         query = session.query(JobListing).options(joinedload(JobListing.company))
         if company:
-            query = query.join(Company).filter(Company.company_name.ilike(f"{company}"))
+            query = query.join(Company).filter(Company.company_name.ilike(f"%{company}%"))
         if title:
-            query = query.filter(JobListing.title.ilike(f"{title}"))
+            query = query.filter(JobListing.title.ilike(f"%{title}%"))
         if pay_period:
-            query = query.filter(JobListing.pay_period==pay_period)
+            query = query.filter(JobListing.pay_period == pay_period)
+        if location:
+            query = query.filter(JobListing.job_location.ilike(f"%{location}%"))
         if min_wage:
             try: # string to number conversion issues, skip if fail
                 query = query.filter(cast(JobListing.max_salary, Float) >= min_wage)
             except: pass
-        return query.all()
+        return query.limit(limit).all()
     except psycopg2.OperationalError as error:
         print(f"Connection failed: {error}")
         raise error
@@ -62,23 +66,5 @@ def get_job_listings(company: Optional[str] = None, title: Optional[str] = None,
         raise error
     finally:
         session.close()
-        
 
-# TODO: Add actual salary filtering logic here if needed
-# def get_jobs_by_salary_range(min_salary: Optional[int] = None, max_salary: Optional[int] = None) -> List[JobListing]:
-#     session = Session()
-#     try:
-#         query = session.query(JobListing).options(joinedload(JobListing.company))
-#         if min_salary:
-#             query = query.filter(JobListing.max_salary >= min_salary)
-#         if max_salary:
-#             query = query.filter(JobListing.max_salary <= max_salary)
-#         return query.all()
-#     except psycopg2.OperationalError as error:
-#         print(f"Connection failed: {error}")
-#         raise error
-#     except Exception as error:
-#         print(f"Database error: {error}")
-#         raise error
-#     finally:
-#         session.close()
+
