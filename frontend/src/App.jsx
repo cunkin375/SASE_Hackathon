@@ -52,39 +52,36 @@ function App() {
             <form onSubmit={handleSubmit}>
                 <InputBox 
                     className="App-inputBox"
-                    label="Search Jobs: " 
                     htmlFor="job-search" 
                     type="text" 
-                    placeholder="Enter job title" 
+                    placeholder="Job Role" 
                     onChange={(event) => setTitle(event.target.value)} 
                 />
                 <InputBox 
                     className="App-inputBox" 
-                    label="Salary: " 
                     htmlFor="salary-search" 
                     type="text" 
-                    placeholder="Enter salary" 
+                    placeholder="Salary" 
                     onChange={(event) => setSalary(event.target.value)} 
                 />
                 <InputBox 
                     className="App-inputBox" 
-                    label="Location: " 
                     htmlFor="location-search" 
                     type="text" 
-                    placeholder="Enter location" 
+                    placeholder="Location" 
                     onChange={(event) => setLocation(event.target.value)} 
                 />
                 <InputBox 
                     className="App-inputBox" 
-                    label="Company: " 
                     htmlFor="company-search" 
-                    type="text" placeholder="Enter company name" 
+                    type="text" placeholder="Company" 
                     onChange={(event) => setCompany(event.target.value)} 
                 />
 
                 <button className="App-button" type="submit">
                     Search Jobs
                 </button>
+
             </form>
 
             {loading && <div>Loading jobs...</div>}

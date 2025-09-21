@@ -13,3 +13,10 @@ h2 {
     margin-bottom: 10px;
     font-size: 25px;
 }
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

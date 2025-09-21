@@ -26,7 +26,7 @@ const JobList = () => {
         fetchJobs();
     }, []);
 
-    if (loading) return <div>Loading jobs...</div>;
+    if (loading) return <div>Loading jobs...</div>
     if (error) return <div>Error: {error}</div>
 
     return (

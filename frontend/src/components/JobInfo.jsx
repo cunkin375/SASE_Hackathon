@@ -10,7 +10,10 @@ function JobInfo(job) {
             <p>Salary: ${job.salary}</p>
             <p>Wage Type: {job.wageType}</p>
 
-            <Button className="App-button" name="Description" />
+            <Button 
+                className="App-button" 
+                name="Description" 
+            />
         </div>
     )
 }
