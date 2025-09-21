@@ -17,7 +17,7 @@ Pro-Tip: Make your project name catchy and memorable!
 
 ## 💬 Elevator Pitch
 
-The first elephant-powered job search app tailored to college graduates. 
+The first tusk-powered job search app tailored to college graduates. 
 
 <!--
 Keep it short and sweet. What's the one-sentence summary of your project?
