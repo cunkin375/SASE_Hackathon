@@ -6,7 +6,7 @@ EXAMPLE STRUCUTRE OF A PROJECT README. YOU DON'T NEED TO USE THIS ONE FR FR
 # SASE_Hackathon Submission
 
 $$
-Your Project Name
+Job Elephant
 $$
 
 <!--
@@ -17,6 +17,8 @@ Pro-Tip: Make your project name catchy and memorable!
 
 ## 💬 Elevator Pitch
 
+The first elephant-powered job search app tailored to college graduates. 
+
 <!--
 Keep it short and sweet. What's the one-sentence summary of your project?
 Example: "An app that helps recent graduates find and manage side-hustles to build their skills and income."
@@ -25,6 +27,8 @@ Example: "An app that helps recent graduates find and manage side-hustles to bui
 `[A brief, one-sentence tagline for your project.]`
 
 ## Inspiration
+
+
 
 <!--
 Tell us your story!
@@ -108,7 +112,7 @@ Hackathons are all about learning! What new skills or concepts did you learn dur
 ## What's Next for
 
 $$
-Your Project Name
+Job Elephant
 $$
 
 <!--
