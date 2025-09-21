@@ -7,7 +7,7 @@ EXAMPLE STRUCUTRE OF A PROJECT README. YOU DON'T NEED TO USE THIS ONE FR FR
 
 $$
 Job Elephant
-$$
+$$testesf
 
 <!--
 Pro-Tip: Make your project name catchy and memorable!
@@ -28,11 +28,8 @@ Example: "An app that helps recent graduates find and manage side-hustles to bui
 
 ## Inspiration
 
-
-
 <!--
 Tell us your story!
-
 * What was the inspiration for your project?
 
 * Which persona (Hillary, Rachel, or Fred) did you choose?
@@ -66,7 +63,7 @@ List the technologies, frameworks, and APIs you used. This is a great way to sho
 -->
 
 - **Frontend:** `[e.g., React, Vite, Tailwind CSS]`
-
+trestesgsejhges
 - **Backend:** `[e.g., Python, Flask]`
 
 - **APIs:** `[e.g., Google Maps API, Plaid API]`
