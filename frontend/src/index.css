@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+label {
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}

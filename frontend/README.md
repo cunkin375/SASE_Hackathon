@@ -1,12 +1,11 @@
-
 <!--
 EXAMPLE STRUCUTRE OF A PROJECT README. YOU DON'T NEED TO USE THIS ONE FR FR
 -->
 
-# SASE_Hackathon Submission
+# 
 
 $$
-Job Elephant
+Your Project Name
 $$
 
 <!--
@@ -15,19 +14,16 @@ Pro-Tip: Make your project name catchy and memorable!
 
 **Team Members:** `[Your Name(s)]`
 
-## The first tusk-powered job search app.
-
-The first tusk-powered job search app. 
+## 💬 Elevator Pitch
 
 <!--
 Keep it short and sweet. What's the one-sentence summary of your project?
 Example: "An app that helps recent graduates find and manage side-hustles to build their skills and income."
 -->
 
+`[A brief, one-sentence tagline for your project.]`
 
 ## Inspiration
-
-
 
 <!--
 Tell us your story!
@@ -111,7 +107,7 @@ Hackathons are all about learning! What new skills or concepts did you learn dur
 ## What's Next for
 
 $$
-Job Elephant
+Your Project Name
 $$
 
 <!--
@@ -159,5 +155,3 @@ To get a local copy up and running, follow these simple steps.
 - **Devpost Submission:** `[Link to your Devpost project page]`
 
 - **Live Demo:** `[Link to your deployed project (if applicable)]`
-
-

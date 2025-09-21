@@ -1,0 +1,44 @@
+.App-button {
+  background-color: skyblue;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer
+}
+
+.App-button:hover {
+  background-color: deepskyblue;
+  transform: scale(1.1);
+}
+
+.App-inputBox {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+}
+
+.App-inputBox:focus {
+  border-color: deepskyblue;
+  outline: none;
+}
+
+.App-header {
+  background-color: steelblue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.App-jobInfo {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+

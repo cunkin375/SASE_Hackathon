@@ -1,0 +1,402 @@
+[
+ {
+   "job_id": 921716,
+   "company_name": "Corcoran Sawyer Smith",
+   "title": "Marketing Coordinator",
+   "max_salary": 20,
+   "pay_period": "HOURLY",
+   "job_location": "Princeton, NJ"
+ },
+ {
+   "job_id": 10998357,
+   "company_name": "The National Exemplar ",
+   "title": "Assitant Restaurant Manager",
+   "max_salary": 65000,
+   "pay_period": "YEARLY",
+   "job_location": "Cincinnati, OH"
+ },
+ {
+   "job_id": 23221523,
+   "company_name": "Abrams Fensterman, LLP",
+   "title": "Senior Elder Law / Trusts and Estates Associate Attorney",
+   "max_salary": 175000,
+   "pay_period": "YEARLY",
+   "job_location": "New Hyde Park, NY"
+ },
+ {
+   "job_id": 91700727,
+   "company_name": "Downtown Raleigh Alliance",
+   "title": "Economic Development and Planning Intern",
+   "max_salary": 20,
+   "pay_period": "HOURLY",
+   "job_location": "Raleigh, NC"
+ },
+ {
+   "job_id": 103254301,
+   "company_name": "Raw Cereal",
+   "title": "Producer",
+   "max_salary": 300000,
+   "pay_period": "YEARLY",
+   "job_location": "United States"
+ },
+ {
+   "job_id": 266566927,
+   "company_name": "Revesco Properties",
+   "title": "Marketing & Office Coordinator",
+   "max_salary": 75000,
+   "pay_period": "YEARLY",
+   "job_location": "Denver, CO"
+ },
+ {
+   "job_id": 266825034,
+   "company_name": "Recruitment Design",
+   "title": "Software Support Specialist",
+   "max_salary": 65000,
+   "pay_period": "YEARLY",
+   "job_location": "McLean, VA"
+ },
+ {
+   "job_id": 280496925,
+   "company_name": "Washington State University",
+   "title": "Coordinator for Multicultural Student Organizations",
+   "max_salary": 4817,
+   "pay_period": "MONTHLY",
+   "job_location": "Pullman, WA"
+ },
+ {
+   "job_id": 445337908,
+   "company_name": "Food Bank of Alaska",
+   "title": "Chief Operating Officer",
+   "max_salary": 110000,
+   "pay_period": "YEARLY",
+   "job_location": "Anchorage, AK"
+ },
+ {
+   "job_id": 606178500,
+   "company_name": "Jung & Vassar PC Attorneys At Law A Law Corp",
+   "title": "Associate Attorney",
+   "max_salary": 135000,
+   "pay_period": "YEARLY",
+   "job_location": "Kailua-Kona, HI"
+ },
+ {
+   "job_id": 705356075,
+   "company_name": "Blackland Home Inspections, PLLC",
+   "title": "TREC licensed Professional Home Inspector",
+   "max_salary": 28,
+   "pay_period": "HOURLY",
+   "job_location": "Dallas-Fort Worth Metroplex"
+ },
+ {
+   "job_id": 1014822088,
+   "company_name": "Tracker",
+   "title": "Marketing Specialist",
+   "max_salary": 80000,
+   "pay_period": "YEARLY",
+   "job_location": "United States"
+ },
+ {
+   "job_id": 1093227543,
+   "company_name": "POSHI",
+   "title": "Sales Associate Natural Food Products",
+   "max_salary": 120000,
+   "pay_period": "YEARLY",
+   "job_location": "Miami, FL"
+ },
+ {
+   "job_id": 1448163866,
+   "company_name": "Genlabs Corp",
+   "title": "Office Manager",
+   "max_salary": 70000,
+   "pay_period": "YEARLY",
+   "job_location": "Chino, CA"
+ },
+ {
+   "job_id": 1826257634,
+   "company_name": "The Medicare Coach",
+   "title": "Social Security Specialist / Retirement Benefit Advisor (Remote)",
+   "max_salary": 25,
+   "pay_period": "HOURLY",
+   "job_location": "Colorado, United States"
+ },
+ {
+   "job_id": 2147609766,
+   "company_name": "The Job Network",
+   "title": "Sales Representative",
+   "max_salary": 150000,
+   "pay_period": "YEARLY",
+   "job_location": "Ogden, UT"
+ },
+ {
+   "job_id": 2147609840,
+   "company_name": "The Job Network",
+   "title": "Mover/Junk Hauler/Crew Member",
+   "max_salary": 25,
+   "pay_period": "HOURLY",
+   "job_location": "St Louis, MO"
+ },
+ {
+   "job_id": 2404832493,
+   "company_name": "International Bath and Tile",
+   "title": "Sales and Design consultant",
+   "max_salary": 26,
+   "pay_period": "HOURLY",
+   "job_location": "San Diego, CA"
+ },
+ {
+   "job_id": 2558399667,
+   "company_name": "I.T. Solutions, Inc.",
+   "title": "Validation Engineer, Labware LIMS",
+   "max_salary": 70,
+   "pay_period": "HOURLY",
+   "job_location": "Foster City, CA"
+ },
+ {
+   "job_id": 2748500131,
+   "company_name": "City of Germantown, TN",
+   "title": "Director of Public Works",
+   "max_salary": 154398.4,
+   "pay_period": "YEARLY",
+   "job_location": "Germantown, TN"
+ },
+ {
+   "job_id": 2796728000,
+   "company_name": "Thorpe Design, Inc.",
+   "title": "Fire Sprinkler Designer",
+   "max_salary": 40,
+   "pay_period": "HOURLY",
+   "job_location": "Brentwood, CA"
+ },
+ {
+   "job_id": 2914254129,
+   "company_name": "Eastern Indiana Works",
+   "title": "Director of Operations",
+   "max_salary": 60000,
+   "pay_period": "YEARLY",
+   "job_location": "Muncie, IN"
+ },
+ {
+   "job_id": 2920450495,
+   "company_name": "Grunwald Mechanical Contractors & Engineers",
+   "title": "Service Coordinator",
+   "max_salary": 75000,
+   "pay_period": "YEARLY",
+   "job_location": "Omaha, NE"
+ },
+ {
+   "job_id": 2954591060,
+   "company_name": "Naked Wardrobe",
+   "title": "Social Media Coordinator",
+   "max_salary": 28,
+   "pay_period": "HOURLY",
+   "job_location": "Los Angeles, CA"
+ },
+ {
+   "job_id": 2957460032,
+   "company_name": "Executive Cleaning Services, Inc",
+   "title": "Professional Window Cleaning Technician",
+   "max_salary": 40,
+   "pay_period": "HOURLY",
+   "job_location": "Omaha, NE"
+ },
+ {
+   "job_id": 2974397965,
+   "company_name": "Lynx Systems",
+   "title": "Marketing Coordinator",
+   "max_salary": 85000,
+   "pay_period": "YEARLY",
+   "job_location": "Richardson, TX"
+ },
+ {
+   "job_id": 2989631782,
+   "company_name": "ActOne Group",
+   "title": "Administrative Assistant - CONCUR",
+   "max_salary": 90000,
+   "pay_period": "YEARLY",
+   "job_location": "New York, NY"
+ },
+ {
+   "job_id": 3045980831,
+   "company_name": "Armstrong Builders LLC",
+   "title": "Project Engineer",
+   "max_salary": 90000,
+   "pay_period": "YEARLY",
+   "job_location": "Kailua-Kona, HI"
+ },
+ {
+   "job_id": 3075721793,
+   "company_name": "ASA Architects",
+   "title": "Architect/Project Manager",
+   "max_salary": 60000,
+   "pay_period": "YEARLY",
+   "job_location": "Las Cruces, NM"
+ },
+ {
+   "job_id": 3177010992,
+   "company_name": "ABC Farigua Division",
+   "title": "Customer Service Representative",
+   "max_salary": 105000,
+   "pay_period": "YEARLY",
+   "job_location": "Greater Orlando, FL"
+ },
+ {
+   "job_id": 3189117072,
+   "company_name": "Signature Estate & Investment Advisors, LLC",
+   "title": "Client Service Associate / Practice Manager",
+   "max_salary": 100000,
+   "pay_period": "YEARLY",
+   "job_location": "Redondo Beach, CA"
+ },
+ {
+   "job_id": 3211657373,
+   "company_name": "AB Underground",
+   "title": "Heavy Equipment Operator",
+   "max_salary": 35,
+   "pay_period": "HOURLY",
+   "job_location": "La Salle, CO"
+ },
+ {
+   "job_id": 3260455681,
+   "company_name": "Weyerhaeuser",
+   "title": "Operations Specialist",
+   "max_salary": 109113,
+   "pay_period": "YEARLY",
+   "job_location": "Castle Rock, WA"
+ },
+ {
+   "job_id": 3273249702,
+   "company_name": "barton CPA",
+   "title": "CPA",
+   "max_salary": 150000,
+   "pay_period": "YEARLY",
+   "job_location": "Palm Springs, CA"
+ },
+ {
+   "job_id": 3277232283,
+   "company_name": "KLA (Kim Lundgren Associates)",
+   "title": "HR & Administrative Assistant",
+   "max_salary": 72000,
+   "pay_period": "YEARLY",
+   "job_location": "United States"
+ },
+ {
+   "job_id": 3297645846,
+   "company_name": "Navajo Transitional Energy Company, LLC",
+   "title": "Contract Administrator",
+   "max_salary": 90000,
+   "pay_period": "YEARLY",
+   "job_location": "Broomfield, CO"
+ },
+ {
+   "job_id": 3322949022,
+   "company_name": "Kenai Capital Advisors",
+   "title": "Director, Investment Sales",
+   "max_salary": 40000,
+   "pay_period": "YEARLY",
+   "job_location": "Littleton, CO"
+ },
+ {
+   "job_id": 3363439517,
+   "company_name": "White Bottle Inc.",
+   "title": "Sanitation Supervisor",
+   "max_salary": 27,
+   "pay_period": "HOURLY",
+   "job_location": "Stanton, CA"
+ },
+ {
+   "job_id": 3422171886,
+   "company_name": "Century Trucks & Vans",
+   "title": "Social Media Manager and Graphic Designer",
+   "max_salary": 30,
+   "pay_period": "HOURLY",
+   "job_location": "Grand Prairie, TX"
+ },
+ {
+   "job_id": 3438976411,
+   "company_name": "Health & Rehab Solutions",
+   "title": "Accounting Specialist",
+   "max_salary": 50000,
+   "pay_period": "YEARLY",
+   "job_location": "Kalispell, MT"
+ },
+ {
+   "job_id": 3466187886,
+   "company_name": "Landscape Management Group",
+   "title": "Owner",
+   "max_salary": 85000,
+   "pay_period": "YEARLY",
+   "job_location": "Columbus, Ohio Metropolitan Area"
+ },
+ {
+   "job_id": 3487703305,
+   "company_name": "Foley Development",
+   "title": "Leasing & Property Management Specialist (Part-Time with Growth Potential)",
+   "max_salary": 25,
+   "pay_period": "HOURLY",
+   "job_location": "San Diego, CA"
+ },
+ {
+   "job_id": 3511440340,
+   "company_name": "Kiddie Academies of Greater Seattle Careers",
+   "title": "Assistant Director",
+   "max_salary": 30,
+   "pay_period": "HOURLY",
+   "job_location": "Kirkland, WA"
+ },
+ {
+   "job_id": 3514683108,
+   "company_name": "AVAVA",
+   "title": "Associate Brand Manager",
+   "max_salary": 90000,
+   "pay_period": "YEARLY",
+   "job_location": "Waltham, MA"
+ },
+ {
+   "job_id": 3527189387,
+   "company_name": "LaBella Intimates & Boutique",
+   "title": "Retail Salesperson",
+   "max_salary": 16,
+   "pay_period": "HOURLY",
+   "job_location": "Orlando, FL"
+ },
+ {
+   "job_id": 3530975184,
+   "company_name": "Education Success Foundation",
+   "title": "Administrator of College & Career Development",
+   "max_salary": 84864,
+   "pay_period": "YEARLY",
+   "job_location": "Rochester, NY"
+ },
+ {
+   "job_id": 3537193915,
+   "company_name": "DIGS Vacation Rentals.com",
+   "title": "Field Operations Specialist",
+   "max_salary": 60000,
+   "pay_period": "YEARLY",
+   "job_location": "San Luis Obispo County, CA"
+ },
+ {
+   "job_id": 3548616699,
+   "company_name": "Clarity Counseling Pittsburgh",
+   "title": "Mental Health Therapist",
+   "max_salary": 60,
+   "pay_period": "HOURLY",
+   "job_location": "Aliquippa, PA"
+ },
+ {
+   "job_id": 3550388220,
+   "company_name": "TECHEAD",
+   "title": "Inbound Call Center Specialist",
+   "max_salary": 19,
+   "pay_period": "HOURLY",
+   "job_location": "Richmond, VA"
+ },
+ {
+   "job_id": 3578562287,
+   "company_name": "Beat the Streets - Baltimore",
+   "title": "Swahili Instructor",
+   "max_salary": 25,
+   "pay_period": "HOURLY",
+   "job_location": "Baltimore, MD"
+ }
+]
