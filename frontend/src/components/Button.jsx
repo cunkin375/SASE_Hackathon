@@ -1,6 +1,10 @@
 function Button(props) {
     return (
-        <button className={props.className}>
+        <button 
+            className={props.className}
+            onClick={props.onClick}
+            type={props.type || "button"}
+        >
             {props.name}
         </button>
     );

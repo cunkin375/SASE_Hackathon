@@ -1,14 +1,14 @@
 import Button from './Button';
 import "../App.css";
 
-function JobInfo(props) {
+function JobInfo(job) {
     return (
-        <div className={props.className}>
-            <h2>Job: {props.title}</h2>
-            <p>Company: {props.company}</p>
-            <p>Location: {props.location}</p>
-            <p>Salary: ${props.salary}</p>
-            <p>Wage Type: {props.wageType}</p>
+        <div className={job.className}>
+            <h2>Job: {job.title}</h2>
+            <p>Company: {job.company}</p>
+            <p>Location: {job.location}</p>
+            <p>Salary: ${job.salary}</p>
+            <p>Wage Type: {job.wageType}</p>
 
             <Button className="App-button" name="Description" />
         </div>

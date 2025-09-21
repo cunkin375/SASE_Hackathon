@@ -1,57 +1,120 @@
 import "./App.css";
 import { useState } from "react";
-import Jobs from "./sample_jobs.json";
+import { jobsAPI } from './services/JobsAPI';
 import Button from './components/Button';
 import InputBox from './components/InputBox';
 import JobInfo from './components/JobInfo';
 
 function App() {
-  const [title, setTitle] = useState("");
-  const [salary, setSalary] = useState("");
-  const [location, setLocation] = useState("");
-  const [company, setCompany] = useState("");
+    const [title, setTitle] = useState("");
+    const [salary, setSalary] = useState("");
+    const [location, setLocation] = useState("");
+    const [company, setCompany] = useState("");
+    const [jobs, setJobs] = useState([]);
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(null);
 
-  const jobInfo = [];
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(title, salary, location, company);
-  }
-
-  return (
-    <div>
-      <h1 className="App-header">
-        J*b Finding
-      </h1>
-
-      <form onSubmit={handleSubmit}>
-        <InputBox className="App-inputBox" label="Search Jobs: " htmlFor="job-search" type="text" placeholder="Enter job title" onChange={(e) => setTitle(e.target.value)} />
-        <InputBox className="App-inputBox" label="Salary: " htmlFor="salary-search" type="text" placeholder="Enter salary" onChange={(e) => setSalary(e.target.value)} />
-        <InputBox className="App-inputBox" label="Location: " htmlFor="location-search" type="text" placeholder="Enter location" onChange={(e) => setLocation(e.target.value)} />
-        <InputBox className="App-inputBox" label="Company: " htmlFor="company-search" type="text" placeholder="Enter company name" onChange={(e) => setCompany(e.target.value)} />
-
-        <button className="App-button" type="submit">
-          Submit
-        </button>
-      </form>
-
-      <div>
-        {Jobs.map((job) => (
-          <JobInfo
-            className="App-jobInfo"
-            title={job.title}
-            company={job.company_name}
-            location={job.job_location}
-            salary={job.max_salary}
-            wageType={job.pay_period}
-          />
-        ))
+    const fetchJobs = async (searchParams = {}) => {
+        setLoading(true);
+        setError(null);
+        try {
+            const jobsData = await jobsAPI.searchJobs(searchParams);
+            setJobs(jobsData);
+        } catch (error) {
+            setError('Failed to fetch jobs');
+            console.error(error);
+        } finally {
+            setLoading(false);
         }
-      </div>
+    };
 
-      <Button className="App-button" name="Load More Jobs" />
-    </div>
-  )
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        console.log('Searching with:', { title, salary, location, company });
+
+        const searchParams = {};
+        if (title.trim()) searchParams.title = title.trim();
+        if (company.trim()) searchParams.company = company.trim();
+        if (salary.trim()) searchParams.min_wage = parseInt(salary);
+        await fetchJobs(searchParams);
+    };
+
+    const loadAllJobs = async () => {
+        await fetchJobs();
+    }
+
+    return (
+        <div>
+            <h1 className="App-header">
+                J*b Finding
+            </h1>
+
+            <form onSubmit={handleSubmit}>
+                <InputBox 
+                    className="App-inputBox"
+                    label="Search Jobs: " 
+                    htmlFor="job-search" 
+                    type="text" 
+                    placeholder="Enter job title" 
+                    onChange={(event) => setTitle(event.target.value)} 
+                />
+                <InputBox 
+                    className="App-inputBox" 
+                    label="Salary: " 
+                    htmlFor="salary-search" 
+                    type="text" 
+                    placeholder="Enter salary" 
+                    onChange={(event) => setSalary(event.target.value)} 
+                />
+                <InputBox 
+                    className="App-inputBox" 
+                    label="Location: " 
+                    htmlFor="location-search" 
+                    type="text" 
+                    placeholder="Enter location" 
+                    onChange={(event) => setLocation(event.target.value)} 
+                />
+                <InputBox 
+                    className="App-inputBox" 
+                    label="Company: " 
+                    htmlFor="company-search" 
+                    type="text" placeholder="Enter company name" 
+                    onChange={(event) => setCompany(event.target.value)} 
+                />
+
+                <button className="App-button" type="submit">
+                    Search Jobs
+                </button>
+            </form>
+
+            {loading && <div>Loading jobs...</div>}
+            {error && <div>Error: {error}</div>}
+
+            <div>
+                {jobs.length === 0 && !loading ? (
+                    <p>No jobs found.</p> 
+                ) : (
+                    jobs.map((job) => (
+                        <JobInfo
+                            key={job.job_id}
+                            className="App-jobInfo"
+                            title={job.title}
+                            company={job.company_name}
+                            location={job.job_location}
+                            salary={job.max_salary}
+                            wageType={job.pay_period}
+                        />
+                    ))
+                )}
+            </div>
+
+            <Button 
+                className="App-button" 
+                name="Load More Jobs" 
+                onClick={loadAllJobs}
+            />
+        </div>
+    )
 }
 
 export default App
