@@ -31,7 +31,7 @@ async def search_jobs(company: str = None, title: str = None) -> List[JobOutput]
         jobs = get_job_listings(company=company, title=title)
         return [JobOutput(
             job_id = job.job_id,
-            company_name = job.company_name,
+            company_name = job.company.company_name,
             title = job.title,
             max_salary = job.max_salary,
             pay_period = job.pay_period,
@@ -47,7 +47,7 @@ async def create_job(job: JobInput) -> List[JobOutput]:
         jobs = get_job_listings()
         return [JobOutput(
             job_id = job.job_id,
-            company_name = job.company_name,
+            company_name = job.company.company_name,
             title = job.title,
             max_salary = job.max_salary,
             pay_period = job.pay_period,
