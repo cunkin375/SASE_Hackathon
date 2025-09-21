@@ -25,10 +25,10 @@ async def read_root():
     return {"message": "Welcome to the job search API!"}
 
 @app.get("/jobs/search")
-async def search_jobs(company: str = None, title: str = None) -> List[JobOutput]:
+async def search_jobs(company: str = None, title: str = None,pay_period: str = None, min_wage: int = None, location: str = None ) -> List[JobOutput]:
     """TEMP: Search for jobs by company or title"""
     try:
-        jobs = get_job_listings(company=company, title=title)
+        jobs = get_job_listings(company=company, title=title,pay_period=pay_period,min_wage=min_wage,location=location)
         return [JobOutput(
             job_id = job.job_id,
             company_name = job.company.company_name,
