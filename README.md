@@ -119,7 +119,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
 
-`git clone https://github.com/cunkin375/SASE_Hackathon
+`git clone https://github.com/cunkin375/SASE_Hackathon`
 
 2. Navigate to the project directory
 
