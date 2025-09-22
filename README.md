@@ -144,21 +144,29 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
 
-`git clone [https://github.com/your_username/your_project_repo.git](https://github.com/your_username/your_project_repo.git)`
+`git clone https://github.com/cunkin375/SASE_Hackathon
 
 2. Navigate to the project directory
 
-`cd your_project_repo`
+`cd SASE_Hackathon`
 
 3. Install dependencies
 
-`pip install `
+`Install PostgreSQL: https://www.postgresql.org/download/`
 
-`npm install`
+`Install NodeJS: https://nodejs.org/`
+
+`pip install fastapi pydantic sqalchemy`
+
+`npm install vite`
 
 4. Run the app
+`Do the following in separate terminals:`
+`In main directory:`
+- `python main.py` 
+`In frontend directory:`
+- `npm run dev`
 
-`npm run dev`
 
 ## 🔗 Important Links
 
