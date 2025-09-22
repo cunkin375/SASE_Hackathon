@@ -46,7 +46,7 @@ function App() {
     return (
         <div>
             <h1 className="App-header">
-                J*b Finding
+                J*b Elephant
             </h1>
 
             <form onSubmit={handleSubmit}>
