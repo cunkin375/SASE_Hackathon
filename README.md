@@ -145,4 +145,4 @@ To get a local copy up and running, follow these simple steps.
 
 ## 🔗 Important Links
 
-- **Devpost Submission:** `[Link to your Devpost project page]`
+- **Devpost Submission:** `https://devpost.com/software/j-b-elephant`
