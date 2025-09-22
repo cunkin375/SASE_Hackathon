@@ -1,8 +1,3 @@
-
-<!--
-EXAMPLE STRUCUTRE OF A PROJECT README. YOU DON'T NEED TO USE THIS ONE FR FR
--->
-
 # SASE_Hackathon Submission
 
 $$
@@ -23,22 +18,6 @@ Pro-Tip: Make your project name catchy and memorable!
 Keep it short and sweet. What's the one-sentence summary of your project?
 Example: "An app that helps recent graduates find and manage side-hustles to build their skills and income."
 -->
-
-## Inspiration
-
-
-
-<!--
-Tell us your story!
-
-* What was the inspiration for your project?
-
-* Which persona (Hillary, Rachel, or Fred) did you choose?
-
-* What specific problem are you solving for them?
--->
-
-`[Tell the story behind your project here.]`
 
 ## What It Does
 
@@ -116,8 +95,6 @@ $$
 
 `There's a lot of avenues open for the application. We can definitely polish out the front end and improive user experience. The database can also be expanded to fit more job listing information.`
 
-`After finalizing these two parameteres, we can work on `
- 
 <!--
 Show your vision for the future!
 
@@ -125,8 +102,6 @@ Show your vision for the future!
 
 * How could you scale the project?
 -->
-
-`[Describe your future plans for the project.]`
 
 ## Getting Started
 
