@@ -42,7 +42,7 @@ Use a bulleted list to describe the key features of your project. Be specific!
 List the technologies, frameworks, and APIs you used. This is a great way to show off your technical skills to judges and recruiters.
 -->
 
-- **Frontend:** `React, Node.js `
+- **Frontend:** `React`
 
 - **Backend:** `Python, PostgreSQL`
 
