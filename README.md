@@ -8,7 +8,7 @@ $$
 Pro-Tip: Make your project name catchy and memorable!
 -->
 
-**Team Members:** `Jermey W., Xiangtao Wu, Andrew Barsoum`
+**Team Members:** `Jermy W., Xiangtao Wu, Andrew Barsoum`
 
 ## 💬 Elevator Pitch
 
